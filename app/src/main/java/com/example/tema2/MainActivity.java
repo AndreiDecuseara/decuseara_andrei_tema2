@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent in = new Intent(getBaseContext(), Second.class);
                 in.putExtra("some","some data");
-                startActivity(in);
+                startActivity(in); // Am pus afisarea intr-o alta activitatea deoarece mi se parea mult mai clean si oricum nu mai aveam prea mult loc in activitatea principala.
             }
         });
         deleteUser.setOnClickListener(new View.OnClickListener() {
